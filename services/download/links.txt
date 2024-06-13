@@ -1,16 +1,92 @@
+https://civitai.com/api/download/models/196039?type=Model&format=SafeTensor&size=full&fp=fp16
+  out=Stable-diffusion/sdxlUnstableDiffusers_v8HeavensWrathVAE.safetensors
 https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt
   out=Stable-diffusion/v1-5-pruned-emaonly.ckpt
-https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.ckpt
-  out=VAE/vae-ft-mse-840000-ema-pruned.ckpt
+https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/realisticVisionV51_v51VAE.safetensors
+  out=Stable-diffusion/realisticVisionV51_v51VAE.safetensors
+https://huggingface.co/Lykon/DreamShaper/resolve/main/DreamShaper_8_pruned.safetensors
+  out=Stable-diffusion/dreamshaper_8.safetensors
+https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/juggernautXL_version6Rundiffusion.safetensors
+  out=Stable-diffusion/juggernautXL_version6Rundiffusion.safetensors
 https://huggingface.co/runwayml/stable-diffusion-inpainting/resolve/main/sd-v1-5-inpainting.ckpt
   out=Stable-diffusion/sd-v1-5-inpainting.ckpt
+https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.ckpt
+  out=VAE/vae-ft-mse-840000-ema-pruned.ckpt
 https://github.com/TencentARC/GFPGAN/releases/download/v1.3.4/GFPGANv1.4.pth
   out=GFPGAN/GFPGANv1.4.pth
 https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_x4plus.pth
   out=RealESRGAN/RealESRGAN_x4plus.pth
 https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.2.4/RealESRGAN_x4plus_anime_6B.pth
   out=RealESRGAN/RealESRGAN_x4plus_anime_6B.pth
+https://huggingface.co/gemasai/4x_NMKD-Superscale-SP_178000_G/resolve/main/4x_NMKD-Superscale-SP_178000_G.pth
+  out=ESRGAN/4x_NMKD-Superscale-SP_178000_G.pth
 https://heibox.uni-heidelberg.de/f/31a76b13ea27482981b4/?dl=1
   out=LDSR/project.yaml
 https://heibox.uni-heidelberg.de/f/578df07c8fc04ffbadf3/?dl=1
   out=LDSR/model.ckpt
+https://huggingface.co/Acly/hat/resolve/main/HAT_SRx4_ImageNet-pretrain.pth
+  out=HAT/HAT_SRx4_ImageNet-pretrain.pth
+https://huggingface.co/Acly/hat/resolve/main/Real_HAT_GAN_sharper.pth
+  out=HAT/Real_HAT_GAN_sharper.pth
+https://huggingface.co/h94/IP-Adapter/resolve/main/models/image_encoder/model.safetensors
+  out=clip_vision/SD1.5/model.safetensors
+https://huggingface.co/Acly/Omni-SR/resolve/main/OmniSR_X2_DIV2K.safetensors
+  out=OmniSR/OmniSR_X2_DIV2K.safetensors
+https://huggingface.co/Acly/Omni-SR/resolve/main/OmniSR_X3_DIV2K.safetensors
+  out=OmniSR/OmniSR_X3_DIV2K.safetensors
+https://huggingface.co/Acly/Omni-SR/resolve/main/OmniSR_X4_DIV2K.safetensors
+  out=OmniSR/OmniSR_X4_DIV2K.safetensors
+https://huggingface.co/latent-consistency/lcm-lora-sdv1-5/resolve/main/pytorch_lora_weights.safetensors
+  out=Lora/lcm-lora-sdv1-5.safetensors
+https://huggingface.co/latent-consistency/lcm-lora-sdxl/resolve/main/pytorch_lora_weights.safetensors
+  out=Lora/lcm-lora-sdxl.safetensors
+https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sd15.bin
+  out=ipadapter/ip-adapter-faceid-plusv2_sd15.bin
+https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sdxl.bin
+  out=ipadapter/ip-adapter-faceid-plusv2_sdxl.bin
+https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15.safetensors
+  out=ipadapter/ip-adapter_sd15.safetensors
+https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/ip-adapter_sdxl_vit-h.safetensors
+  out=ipadapter/ip-adapter_sdxl_vit-h.safetensors
+https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sd15_lora.safetensors
+  out=Lora/ip-adapter-faceid-plusv2_sd15_lora.safetensors
+https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sdxl_lora.safetensors
+  out=Lora/ip-adapter-faceid-plusv2_sdxl_lora.safetensors
+https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_inpaint_fp16.safetensors
+  out=ControlNet/control_v11p_sd15_inpaint_fp16.safetensors
+https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_lora_rank128_v11f1e_sd15_tile_fp16.safetensors
+  out=ControlNet/control_lora_rank128_v11f1e_sd15_tile_fp16.safetensors
+https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_lora_rank128_v11p_sd15_scribble_fp16.safetensors
+  out=ControlNet/control_lora_rank128_v11p_sd15_scribble_fp16.safetensors
+https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_lineart_fp16.safetensors
+  out=ControlNet/control_v11p_sd15_lineart_fp16.safetensors
+https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_softedge_fp16.safetensors
+  out=ControlNet/control_v11p_sd15_softedge_fp16.safetensors
+https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_canny_fp16.safetensors
+  out=ControlNet/control_v11p_sd15_canny_fp16.safetensors
+https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_lora_rank128_v11f1p_sd15_depth_fp16.safetensors
+  out=ControlNet/control_lora_rank128_v11f1p_sd15_depth_fp16.safetensors
+https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_lora_rank128_v11p_sd15_normalbae_fp16.safetensors
+  out=ControlNet/control_lora_rank128_v11p_sd15_normalbae_fp16.safetensors
+https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_lora_rank128_v11p_sd15_openpose_fp16.safetensors
+  out=ControlNet/control_lora_rank128_v11p_sd15_openpose_fp16.safetensors
+https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_lora_rank128_v11p_sd15_seg_fp16.safetensors
+  out=ControlNet/control_lora_rank128_v11p_sd15_seg_fp16.safetensors
+https://huggingface.co/hr16/ControlNet-HandRefiner-pruned/resolve/main/control_sd15_inpaint_depth_hand_fp16.safetensors
+  out=ControlNet/control_sd15_inpaint_depth_hand_fp16.safetensors
+https://huggingface.co/monster-labs/control_v1p_sd15_qrcode_monster/resolve/main/control_v1p_sd15_qrcode_monster.safetensors
+  out=ControlNet/control_v1p_sd15_qrcode_monster.safetensors
+https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/sai_xl_sketch_256lora.safetensors
+  out=ControlNet/sai_xl_sketch_256lora.safetensors
+https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/sai_xl_canny_256lora.safetensors
+  out=ControlNet/sai_xl_canny_256lora.safetensors
+https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/sai_xl_depth_256lora.safetensors
+  out=ControlNet/sai_xl_depth_256lora.safetensors
+https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/thibaud_xl_openpose_256lora.safetensors
+  out=ControlNet/thibaud_xl_openpose_256lora.safetensors
+https://huggingface.co/lllyasviel/fooocus_inpaint/resolve/main/fooocus_inpaint_head.pth
+  out=inpaint/fooocus_inpaint_head.pth
+https://huggingface.co/lllyasviel/fooocus_inpaint/resolve/main/inpaint_v26.fooocus.patch
+  out=inpaint/inpaint_v26.fooocus.patch
+https://huggingface.co/Acly/MAT/resolve/main/MAT_Places512_G_fp16.safetensors
+  out=inpaint/MAT_Places512_G_fp16.safetensors

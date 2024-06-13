@@ -9,6 +9,7 @@ declare -A MOUNTS
 MOUNTS["/root/.cache"]="/data/.cache"
 MOUNTS["${ROOT}/input"]="/data/config/comfy/input"
 MOUNTS["${ROOT}/output"]="/output/comfy"
+MOUNTS["${ROOT}/custom_nodes"]="/data/config/comfy/custom_nodes"
 
 for to_path in "${!MOUNTS[@]}"; do
   set -Eeuo pipefail

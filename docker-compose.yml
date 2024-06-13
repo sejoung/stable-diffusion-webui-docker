@@ -43,6 +43,7 @@ services:
     profiles: ["comfy"]
     build: ./services/comfy/
     image: sd-comfy:7
+    restart: always
     environment:
       - CLI_ARGS=
 

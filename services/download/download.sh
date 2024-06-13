@@ -10,8 +10,43 @@ mkdir -vp /data/.cache \
   /data/models/Stable-diffusion \
   /data/models/GFPGAN \
   /data/models/RealESRGAN \
+  /data/models/ESRGAN \
   /data/models/LDSR \
-  /data/models/VAE
+  /data/models/HAT \
+  /data/models/VAE \
+  /data/models/OmniSR \
+  /data/models/clip_vision/SD1.5 \
+  /data/models/Lora \
+  /data/models/hypernetworks \
+  /data/models/ControlNet \
+  /data/models/CLIPEncoder \
+  /data/models/ipadapter \
+  /data/models/animatediff_motion_lora \
+  /data/models/animatediff_models \
+  /data/config/comfy/custom_nodes
+
+echo "comfyui plugin, this might take a while..."
+
+# 플러그인 초기화
+rm -rf /data/config/comfy/custom_nodes/*
+
+# comfyui manager 추가
+git clone https://github.com/ltdrdata/ComfyUI-Manager.git /data/config/comfy/custom_nodes/ComfyUI-Manager
+
+# ComfyUI IPAdapter plus 추가
+git clone https://github.com/cubiq/ComfyUI_IPAdapter_plus.git /data/config/comfy/custom_nodes/ComfyUI_IPAdapter_plus
+
+# ComfyUI UltimateSDUpscale 추가
+git clone https://github.com/ssitu/ComfyUI_UltimateSDUpscale.git /data/config/comfy/custom_nodes/ComfyUI_UltimateSDUpscale --recursive
+
+# ComfyUI Nodes for External Tooling 추가
+git clone https://github.com/Acly/comfyui-tooling-nodes.git /data/config/comfy/custom_nodes/comfyui-tooling-nodes
+
+# ComfyUI Inpaint Nodes 추가
+git clone https://github.com/Acly/comfyui-inpaint-nodes.git /data/config/comfy/custom_nodes/comfyui-inpaint-nodes
+
+# ComfyUI ControlNet Aux 추가
+git clone https://github.com/Fannovel16/comfyui_controlnet_aux.git /data/config/comfy/custom_nodes/comfyui_controlnet_aux
 
 echo "Downloading, this might take a while..."
 

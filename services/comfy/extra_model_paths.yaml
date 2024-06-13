@@ -10,13 +10,18 @@ a111:
     models/ESRGAN
     models/SwinIR
     models/GFPGAN
+    models/OmniSR
+    models/HAT
   hypernetworks: models/hypernetworks
   controlnet: models/ControlNet
   gligen: models/GLIGEN
   clip: models/CLIPEncoder
   embeddings: embeddings
-
-  custom_nodes: config/comfy/custom_nodes
+  clip_vision: models/clip_vision
+  ipadapter: models/ipadapter
+  inpaint: models/inpaint
+  animatediff_motion_lora: models/animatediff_motion_lora
+  animatediff_models: models/animatediff_models
 
   # TODO: I am unsure about these, need more testing
   # style_models: config/comfy/style_models

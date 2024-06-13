@@ -46,3 +46,24 @@ Special thanks to everyone behind these awesome projects, without them, none of 
 - [CompVis/stable-diffusion](https://github.com/CompVis/stable-diffusion)
 - [Sygil-webui](https://github.com/Sygil-Dev/sygil-webui)
 - and many many more.
+
+
+## ComfyUI-Manager
+
+```shell
+
+cd data/config/comfy/custom_nodes
+git clone https://github.com/ltdrdata/ComfyUI-Manager.git
+
+```
+
+
+## stable-diffusion-webui-docker custom branch
+
+```shell
+
+git clone -b custom https://github.com/sejoung/stable-diffusion-webui-docker.git
+
+```
+
+[krita-ai-diffusion](https://github.com/Acly/krita-ai-diffusion)

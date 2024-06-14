@@ -9,7 +9,7 @@ RUN --mount=type=cache,target=/root/.cache/pip \
   git clone https://github.com/comfyanonymous/ComfyUI.git ${ROOT} && \
   cd ${ROOT} && \
   git checkout master && \
-  git reset --hard 605e64f6d3da44235498bf9103d7aab1c95ef211 && \
+  git reset --hard 5eb98f00927ace00b6b3d01ed9c76b113fc4ec9f && \
   pip install -r requirements.txt \
   pip install insightface==0.7.3 onnxruntime-gpu opencv-python xformers
 

@@ -9,9 +9,9 @@ RUN --mount=type=cache,target=/root/.cache/pip \
   git clone https://github.com/comfyanonymous/ComfyUI.git ${ROOT} && \
   cd ${ROOT} && \
   git checkout master && \
-  git reset --hard 5eb98f00927ace00b6b3d01ed9c76b113fc4ec9f && \
+  git reset --hard 175fe02522751c9f5e9a8309b3aaa5d07a542296 && \
   pip install -r requirements.txt \
-  pip install insightface==0.7.3 onnxruntime-gpu opencv-python xformers
+  pip install insightface==0.7.3 opencv-python xformers onnxruntime-gpu --extra-index-url https://aiinfra.pkgs.visualstudio.com/PublicPackages/_packaging/onnxruntime-cuda-12/pypi/simple/
 
 WORKDIR ${ROOT}
 

@@ -82,6 +82,8 @@ https://huggingface.co/hr16/ControlNet-HandRefiner-pruned/resolve/main/control_s
   out=ControlNet/control_sd15_inpaint_depth_hand_fp16.safetensors
 https://huggingface.co/monster-labs/control_v1p_sd15_qrcode_monster/resolve/main/control_v1p_sd15_qrcode_monster.safetensors
   out=ControlNet/control_v1p_sd15_qrcode_monster.safetensors
+https://huggingface.co/monster-labs/control_v1p_sdxl_qrcode_monster/resolve/main/diffusion_pytorch_model.safetensors?download=true
+  out=ControlNet/sdxl_qrcode_monster.safetensors
 https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/sai_xl_sketch_256lora.safetensors
   out=ControlNet/sai_xl_sketch_256lora.safetensors
 https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/sai_xl_canny_256lora.safetensors
@@ -93,7 +95,7 @@ https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/thibaud_xl_
 https://huggingface.co/TTPlanet/TTPLanet_SDXL_Controlnet_Tile_Realistic/resolve/main/TTPLANET_Controlnet_Tile_realistic_v2_fp16.safetensors
   out=ControlNet/TTPLANET_Controlnet_Tile_realistic_v2_fp16.safetensors
 https://huggingface.co/xinsir/controlnet-scribble-sdxl-1.0/resolve/main/diffusion_pytorch_model.safetensors
-  out=ControlNet/xinsirscribble.safetensors
+  out=ControlNet/controlnetxlCNXL_xinsirScribble.safetensors
 https://huggingface.co/TheMistoAI/MistoLine/blob/main/mistoLine_rank256.safetensors
   out=ControlNet/mistoLine_rank256.safetensors
 https://huggingface.co/xinsir/controlnet-openpose-sdxl-1.0/resolve/main/diffusion_pytorch_model.safetensors

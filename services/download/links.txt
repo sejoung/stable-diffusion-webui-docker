@@ -8,6 +8,8 @@ https://huggingface.co/Lykon/DreamShaper/resolve/main/DreamShaper_8_pruned.safet
   out=Stable-diffusion/dreamshaper_8.safetensors
 https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/juggernautXL_version6Rundiffusion.safetensors
   out=Stable-diffusion/juggernautXL_version6Rundiffusion.safetensors
+https://huggingface.co/misri/zavychromaxl_v80/resolve/main/zavychromaxl_v80.safetensors
+  out=Stable-diffusion/zavychromaxl_v80.safetensors
 https://huggingface.co/runwayml/stable-diffusion-inpainting/resolve/main/sd-v1-5-inpainting.ckpt
   out=Stable-diffusion/sd-v1-5-inpainting.ckpt
 https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.ckpt

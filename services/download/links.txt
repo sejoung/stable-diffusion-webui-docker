@@ -54,10 +54,6 @@ https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plus
   out=Lora/ip-adapter-faceid-plusv2_sd15_lora.safetensors
 https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sdxl_lora.safetensors
   out=Lora/ip-adapter-faceid-plusv2_sdxl_lora.safetensors
-https://huggingface.co/ByteDance/Hyper-SD/resolve/main/Hyper-SD15-8steps-CFG-lora.safetensors
-  out=Lora/Hyper-SD15-8steps-CFG-lora.safetensors
-https://huggingface.co/ByteDance/Hyper-SD/resolve/main/Hyper-SDXL-8steps-CFG-lora.safetensors
-  out=Lora/Hyper-SDXL-8steps-CFG-lora.safetensors
 https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_inpaint_fp16.safetensors
   out=ControlNet/control_v11p_sd15_inpaint_fp16.safetensors
 https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_lora_rank128_v11f1e_sd15_tile_fp16.safetensors

@@ -90,8 +90,14 @@ https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/sai_xl_cann
   out=ControlNet/sai_xl_canny_256lora.safetensors
 https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/sai_xl_depth_256lora.safetensors
   out=ControlNet/sai_xl_depth_256lora.safetensors
+https://huggingface.co/xinsir/controlnet-depth-sdxl-1.0/resolve/main/diffusion_pytorch_model.safetensors
+  out=ControlNet/controlnetxlCNXL_xinsirDepth.safetensors
 https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/thibaud_xl_openpose_256lora.safetensors
   out=ControlNet/thibaud_xl_openpose_256lora.safetensors
+https://huggingface.co/xinsir/controlnet-tile-sdxl-1.0/resolve/main/diffusion_pytorch_model.safetensors
+  out=ControlNet/controlnetxlCNXL_xinsirTile.safetensors
+https://huggingface.co/abovzv/sdxl_segmentation_controlnet_ade20k/resolve/main/sdxl_segmentation_ade20k_controlnet.safetensors?download=true
+  out=ControlNet/sdxl_segmentation_ade20k_controlnet.safetensors
 https://huggingface.co/TTPlanet/TTPLanet_SDXL_Controlnet_Tile_Realistic/resolve/main/TTPLANET_Controlnet_Tile_realistic_v2_fp16.safetensors
   out=ControlNet/TTPLANET_Controlnet_Tile_realistic_v2_fp16.safetensors
 https://huggingface.co/xinsir/controlnet-scribble-sdxl-1.0/resolve/main/diffusion_pytorch_model.safetensors

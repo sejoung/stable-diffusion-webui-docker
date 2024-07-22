@@ -11,6 +11,7 @@ RUN --mount=type=cache,target=/root/.cache/pip \
 WORKDIR ${ROOT}
 
 RUN pip install -r requirements.txt
+RUN pip install insightface==0.7.3 opencv-python xformers onnxruntime-gpu --extra-index-url https://aiinfra.pkgs.visualstudio.com/PublicPackages/_packaging/onnxruntime-cuda-12/pypi/simple/
 
 # add info
 COPY . /docker/

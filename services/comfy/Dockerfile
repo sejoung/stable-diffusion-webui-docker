@@ -6,11 +6,11 @@ RUN apt-get update && apt-get install -y git ffmpeg libsm6 libxext6 gcc g++ && a
 
 ENV ROOT=/stable-diffusion
 RUN --mount=type=cache,target=/root/.cache/pip \
-  git clone https://github.com/comfyanonymous/ComfyUI.git ${ROOT} && \
-  cd ${ROOT} && \
-  pip install -r requirements.txt \
+  git clone https://github.com/comfyanonymous/ComfyUI.git ${ROOT}
 
 WORKDIR ${ROOT}
+
+RUN pip install -r requirements.txt
 
 # add info
 COPY . /docker/

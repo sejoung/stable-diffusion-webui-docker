@@ -1,4 +1,4 @@
-FROM pytorch/pytorch:2.3.0-cuda12.1-cudnn8-runtime
+FROM pytorch/pytorch:2.3.1-cuda12.1-cudnn8-runtime
 
 ENV DEBIAN_FRONTEND=noninteractive PIP_PREFER_BINARY=1
 
@@ -10,7 +10,6 @@ RUN --mount=type=cache,target=/root/.cache/pip \
   cd ${ROOT} && \
   git checkout master && \
   git reset --hard 6045ed31f898e278e4693f2a4e210393fc9153d0 && \
-  pip install --upgrade pip \
   pip install -r requirements.txt \
   pip install insightface==0.7.3 opencv-python xformers onnxruntime-gpu --extra-index-url https://aiinfra.pkgs.visualstudio.com/PublicPackages/_packaging/onnxruntime-cuda-12/pypi/simple/
 

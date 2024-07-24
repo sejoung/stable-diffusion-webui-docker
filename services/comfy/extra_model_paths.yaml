@@ -22,6 +22,7 @@ a111:
   inpaint: models/inpaint
   animatediff_motion_lora: models/animatediff_motion_lora
   animatediff_models: models/animatediff_models
+  liveportrait: models/liveportrait
 
   # TODO: I am unsure about these, need more testing
   # style_models: config/comfy/style_models

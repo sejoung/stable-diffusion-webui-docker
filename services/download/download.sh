@@ -23,6 +23,7 @@ mkdir -vp /data/.cache \
   /data/models/ipadapter \
   /data/models/animatediff_motion_lora \
   /data/models/animatediff_models \
+  /data/models/liveportrait \
   /data/config/comfy/custom_nodes
 
 echo "comfyui plugin, this might take a while..."

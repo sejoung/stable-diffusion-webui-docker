@@ -49,6 +49,9 @@ git clone https://github.com/Acly/comfyui-inpaint-nodes.git /data/config/comfy/c
 # ComfyUI ControlNet Aux 추가
 git clone https://github.com/Fannovel16/comfyui_controlnet_aux.git /data/config/comfy/custom_nodes/comfyui_controlnet_aux
 
+# ComfyUI LivePortraitKJ 추가
+git clone https://github.com/kijai/ComfyUI-LivePortraitKJ.git /data/config/comfy/custom_nodes/ComfyUI-LivePortraitKJ
+
 echo "Downloading, this might take a while..."
 
 aria2c -x 10 --disable-ipv6 --input-file /docker/links.txt --dir /data/models --continue

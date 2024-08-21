@@ -12,6 +12,10 @@ https://huggingface.co/misri/zavychromaxl_v80/resolve/main/zavychromaxl_v80.safe
   out=Stable-diffusion/zavychromaxl_v80.safetensors
 https://huggingface.co/runwayml/stable-diffusion-inpainting/resolve/main/sd-v1-5-inpainting.ckpt
   out=Stable-diffusion/sd-v1-5-inpainting.ckpt
+https://huggingface.co/Comfy-Org/flux1-dev/resolve/main/flux1-dev-fp8.safetensors
+  out=Stable-diffusion/flux1-dev-fp8.safetensors
+https://huggingface.co/Comfy-Org/flux1-schnell/blob/main/flux1-schnell-fp8.safetensors
+  out=Stable-diffusion/flux1-schnell-fp8.safetensors
 https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.ckpt
   out=VAE/vae-ft-mse-840000-ema-pruned.ckpt
 https://github.com/TencentARC/GFPGAN/releases/download/v1.3.4/GFPGANv1.4.pth
@@ -104,6 +108,8 @@ https://huggingface.co/xinsir/controlnet-openpose-sdxl-1.0/resolve/main/diffusio
   out=ControlNet/controlnetxlCNXL_xinsirOpenpose.safetensors
 https://huggingface.co/abovzv/sdxl_segmentation_controlnet_ade20k/resolve/main/sdxl_segmentation_ade20k_controlnet.safetensors
   out=ControlNet/sdxl_segmentation_ade20k_controlnet.safetensors
+https://huggingface.co/xinsir/controlnet-union-sdxl-1.0/resolve/main/diffusion_pytorch_model_promax.safetensors
+  out=ControlNet/xinsir-controlnet-union-sdxl-1.0-promax.safetensors
 https://huggingface.co/lllyasviel/fooocus_inpaint/resolve/main/fooocus_inpaint_head.pth
   out=inpaint/fooocus_inpaint_head.pth
 https://huggingface.co/lllyasviel/fooocus_inpaint/resolve/main/inpaint_v26.fooocus.patch

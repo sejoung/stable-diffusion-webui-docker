@@ -13,9 +13,9 @@ https://huggingface.co/misri/zavychromaxl_v80/resolve/main/zavychromaxl_v80.safe
 https://huggingface.co/runwayml/stable-diffusion-inpainting/resolve/main/sd-v1-5-inpainting.ckpt
   out=Stable-diffusion/sd-v1-5-inpainting.ckpt
 https://huggingface.co/Comfy-Org/flux1-dev/resolve/main/flux1-dev-fp8.safetensors
-  out=Stable-diffusion/flux1-dev-fp8.safetensors
+  out=Stable-diffusion/flux-dev-fp8.safetensors
 https://huggingface.co/Comfy-Org/flux1-schnell/blob/main/flux1-schnell-fp8.safetensors
-  out=Stable-diffusion/flux1-schnell-fp8.safetensors
+  out=Stable-diffusion/flux-schnell-fp8.safetensors
 https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.ckpt
   out=VAE/vae-ft-mse-840000-ema-pruned.ckpt
 https://github.com/TencentARC/GFPGAN/releases/download/v1.3.4/GFPGANv1.4.pth

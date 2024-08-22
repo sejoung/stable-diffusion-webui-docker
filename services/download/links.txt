@@ -18,6 +18,10 @@ https://huggingface.co/Comfy-Org/flux1-schnell/blob/main/flux1-schnell-fp8.safet
   out=Stable-diffusion/flux-schnell-fp8.safetensors
 https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.ckpt
   out=VAE/vae-ft-mse-840000-ema-pruned.ckpt
+https://huggingface.co/stabilityai/sdxl-vae/resolve/main/sdxl_vae.safetensors
+  out=VAE/sdxl_vae.safetensors
+https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/ae.safetensors
+  out=VAE/ae.safetensors
 https://github.com/TencentARC/GFPGAN/releases/download/v1.3.4/GFPGANv1.4.pth
   out=GFPGAN/GFPGANv1.4.pth
 https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_x4plus.pth
@@ -46,6 +50,10 @@ https://huggingface.co/latent-consistency/lcm-lora-sdv1-5/resolve/main/pytorch_l
   out=Lora/lcm-lora-sdv1-5.safetensors
 https://huggingface.co/latent-consistency/lcm-lora-sdxl/resolve/main/pytorch_lora_weights.safetensors
   out=Lora/lcm-lora-sdxl.safetensors
+https://huggingface.co/ByteDance/Hyper-SD/resolve/main/Hyper-SD15-8steps-CFG-lora.safetensors
+  out=Lora/hyper-sd15-8steps-cfg-lora.safetensors
+https://huggingface.co/ByteDance/Hyper-SD/resolve/main/Hyper-SDXL-8steps-CFG-lora.safetensors
+  out=Lora/hyper-sdxl-8steps-cfg-lora.safetensors
 https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sd15.bin
   out=ipadapter/ip-adapter-faceid-plusv2_sd15.bin
 https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sdxl.bin
@@ -106,8 +114,6 @@ https://huggingface.co/TheMistoAI/MistoLine/blob/main/mistoLine_rank256.safetens
   out=ControlNet/mistoLine_rank256.safetensors
 https://huggingface.co/xinsir/controlnet-openpose-sdxl-1.0/resolve/main/diffusion_pytorch_model.safetensors
   out=ControlNet/controlnetxlCNXL_xinsirOpenpose.safetensors
-https://huggingface.co/abovzv/sdxl_segmentation_controlnet_ade20k/resolve/main/sdxl_segmentation_ade20k_controlnet.safetensors
-  out=ControlNet/sdxl_segmentation_ade20k_controlnet.safetensors
 https://huggingface.co/xinsir/controlnet-union-sdxl-1.0/resolve/main/diffusion_pytorch_model_promax.safetensors
   out=ControlNet/xinsir-controlnet-union-sdxl-1.0-promax.safetensors
 https://huggingface.co/lllyasviel/fooocus_inpaint/resolve/main/fooocus_inpaint_head.pth

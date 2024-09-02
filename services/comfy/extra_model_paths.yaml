@@ -22,6 +22,7 @@ a111:
   inpaint: models/inpaint
   animatediff_motion_lora: models/animatediff_motion_lora
   animatediff_models: models/animatediff_models
+  unet: models/unet
   # TODO: I am unsure about these, need more testing
   # style_models: config/comfy/style_models
   # t2i_adapter: config/comfy/t2i_adapter

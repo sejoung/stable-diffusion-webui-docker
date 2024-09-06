@@ -11,6 +11,7 @@ MOUNTS["${ROOT}/input"]="/data/config/comfy/input"
 MOUNTS["${ROOT}/output"]="/output/comfy"
 MOUNTS["${ROOT}/custom_nodes"]="/data/config/comfy/custom_nodes"
 MOUNTS["${ROOT}/models/xlabs/ipadapters"]="/data/models/ipadapter/flux"
+MOUNTS["${ROOT}/models/xlabs/loras"]="/data/models/Lora/flux"
 
 
 for to_path in "${!MOUNTS[@]}"; do

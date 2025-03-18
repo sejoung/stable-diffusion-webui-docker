@@ -42,7 +42,7 @@ services:
     <<: *base_service
     profiles: ["comfy"]
     build: ./services/comfy/
-    image: sd-comfy:7
+    image: sd-comfy:8
     restart: always
     environment:
       - CLI_ARGS=

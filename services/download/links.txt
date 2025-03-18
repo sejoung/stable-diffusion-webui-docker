@@ -97,21 +97,21 @@ https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/sai_xl_cann
 https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/sai_xl_depth_256lora.safetensors
   out=ControlNet/sai_xl_depth_256lora.safetensors
 https://huggingface.co/xinsir/controlnet-depth-sdxl-1.0/resolve/main/diffusion_pytorch_model.safetensors
-  out=ControlNet/controlnetxlCNXL_xinsirDepth.safetensors
+  out=ControlNet/xinsirDepth.safetensors
 https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/thibaud_xl_openpose_256lora.safetensors
   out=ControlNet/thibaud_xl_openpose_256lora.safetensors
 https://huggingface.co/xinsir/controlnet-tile-sdxl-1.0/resolve/main/diffusion_pytorch_model.safetensors
-  out=ControlNet/controlnetxlCNXL_xinsirTile.safetensors
+  out=ControlNet/xinsirTile.safetensors
 https://huggingface.co/abovzv/sdxl_segmentation_controlnet_ade20k/resolve/main/sdxl_segmentation_ade20k_controlnet.safetensors?download=true
   out=ControlNet/sdxl_segmentation_ade20k_controlnet.safetensors
 https://huggingface.co/TTPlanet/TTPLanet_SDXL_Controlnet_Tile_Realistic/resolve/main/TTPLANET_Controlnet_Tile_realistic_v2_fp16.safetensors
   out=ControlNet/TTPLANET_Controlnet_Tile_realistic_v2_fp16.safetensors
 https://huggingface.co/xinsir/controlnet-scribble-sdxl-1.0/resolve/main/diffusion_pytorch_model.safetensors
-  out=ControlNet/controlnetxlCNXL_xinsirScribble.safetensors
+  out=ControlNet/xinsirScribble.safetensors
 https://huggingface.co/TheMistoAI/MistoLine/blob/main/mistoLine_rank256.safetensors
   out=ControlNet/mistoLine_rank256.safetensors
 https://huggingface.co/xinsir/controlnet-openpose-sdxl-1.0/resolve/main/diffusion_pytorch_model.safetensors
-  out=ControlNet/controlnetxlCNXL_xinsirOpenpose.safetensors
+  out=ControlNet/xinsirOpenpose.safetensors
 https://huggingface.co/xinsir/controlnet-union-sdxl-1.0/resolve/main/diffusion_pytorch_model_promax.safetensors
   out=ControlNet/xinsir-controlnet-union-sdxl-1.0-promax.safetensors
 https://huggingface.co/XLabs-AI/flux-controlnet-collections/resolve/main/flux-canny-controlnet-v3.safetensors

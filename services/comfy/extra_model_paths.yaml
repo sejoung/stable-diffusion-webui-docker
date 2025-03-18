@@ -15,14 +15,14 @@ a111:
   hypernetworks: models/hypernetworks
   controlnet: models/ControlNet
   gligen: models/GLIGEN
-  clip: models/CLIPEncoder
+  text_encoders: models/CLIPEncoder
   embeddings: embeddings
   clip_vision: models/clip_vision
   ipadapter: models/ipadapter
   inpaint: models/inpaint
   animatediff_motion_lora: models/animatediff_motion_lora
   animatediff_models: models/animatediff_models
-  unet: models/unet
+  diffusion_models: models/unet
   # TODO: I am unsure about these, need more testing
   # style_models: config/comfy/style_models
   # t2i_adapter: config/comfy/t2i_adapter

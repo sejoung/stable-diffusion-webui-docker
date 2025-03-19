@@ -1,5 +1,5 @@
 a111:
-  base_path: /data
+  base_path: /models
 
   checkpoints: models/Stable-diffusion
   configs: models/Stable-diffusion

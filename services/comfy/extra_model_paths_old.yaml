@@ -1,0 +1,30 @@
+a111:
+  base_path: /data
+
+  checkpoints: models/Stable-diffusion
+  configs: models/Stable-diffusion
+  vae: models/VAE
+  loras: models/Lora
+  upscale_models: |
+    models/RealESRGAN
+    models/ESRGAN
+    models/SwinIR
+    models/GFPGAN
+    models/OmniSR
+    models/HAT
+  hypernetworks: models/hypernetworks
+  controlnet: models/ControlNet
+  gligen: models/GLIGEN
+  text_encoders: models/CLIPEncoder
+  embeddings: embeddings
+  clip_vision: models/clip_vision
+  ipadapter: models/ipadapter
+  inpaint: models/inpaint
+  animatediff_motion_lora: models/animatediff_motion_lora
+  animatediff_models: models/animatediff_models
+  diffusion_models: models/unet
+  # TODO: I am unsure about these, need more testing
+  # style_models: config/comfy/style_models
+  # t2i_adapter: config/comfy/t2i_adapter
+  # clip_vision: config/comfy/clip_vision
+  # diffusers: config/comfy/diffusers

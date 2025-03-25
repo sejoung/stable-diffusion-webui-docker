@@ -16,7 +16,7 @@ RUN pip install insightface==0.7.3 opencv-python xformers onnxruntime-gpu --extr
 # add info
 COPY . /docker/
 RUN chmod u+x /docker/entrypoint.sh
-RUN cp /docker/extra_model_paths.yaml ${ROOT}/extra_model_paths.yaml
+RUN cp /docker/extra_model_paths_old.yaml ${ROOT}/extra_model_paths.yaml
 
 ENV NVIDIA_VISIBLE_DEVICES=all
 ENV PYTHONPATH="${PYTHONPATH}:${PWD}" CLI_ARGS=""
